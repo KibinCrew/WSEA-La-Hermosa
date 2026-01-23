@@ -87,3 +87,81 @@ body{
   font-family: 'Inter, sans-serif';
   font-size: 20px;
 }
+
+/* MAIN SHOP STYLES */
+#flower-best-sellers{
+  margin-top: 8em;
+  display: flex;
+}
+
+#main-img-container{
+  margin: 0 2em 3em 0;
+  background-color: #CDA4B5;
+  height: 875px;
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-top-left-radius: 380px;
+  border-top-right-radius: 380px;
+}
+
+#main-img{
+  height: 680px;
+  width: 900px;
+}
+
+#right-img-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-img-container{
+  border: 6px solid #6F0E35;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  width: 375px;
+  max-height: 380px;
+  margin-right: 1em;
+  display:  inline-block;
+}
+
+.right-imgs{
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.flower-info{
+  margin-top: 2em;
+  color: #480935;
+  font-family: 'Poppins, sans-serif';
+  font-size: 25px;
+}
+
+.flower-name{
+  display: inline-block;
+  padding-right: 155px;
+}
+
+.flower-price{
+  display: inline-block;
+  font-weight: bolder;
+}
+
+/* FLOWER COLLETION STYLES */
+#flower-collection{
+  display: flex;
+}
+
+.collection-container{
+  width: 380px;
+  height: 400px;
+  margin: 0 2em 2em 0;
+  background-color: #CDA4B5;
+}
+
+.collection-img{
+  width: 400px;
+  height: 360px;
+}
